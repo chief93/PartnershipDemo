@@ -1,0 +1,25 @@
+php_flag display_errors on
+php_value error_reporting -1
+
+SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php
+</IfModule>
+
+Options All -Indexes
+
+<FilesMatch ".*\.(php|log|qd|ini|pem)$">
+Order Deny,Allow
+Deny from All
+</FilesMatch>
+
+<Files "index.php">
+Order Deny,Allow
+Allow from All
+</Files>
+
+AddDefaultCharset utf-8

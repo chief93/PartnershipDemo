@@ -1,0 +1,59 @@
+body {
+	color: rgb(30,30,30);
+	padding: 0;
+	margin: 0;
+}
+
+.quark-button.quark-link.inline {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.quark-presence-screen {
+	text-align: center;
+}
+
+.ps-container {
+	display: inline-block;
+	width: 100%;
+	max-width: 1200px;
+	text-align: left;
+}
+
+
+
+#ps-header {
+	background: rgb(230,230,230);
+	/*color: rgb(255,255,255);*/
+}
+
+#ps-header-logo {
+	font-size: 20px;
+	line-height: 20px;
+	margin: 17px 10px 17px 10px;
+	color: rgb(70,70,70);
+	text-decoration: none;
+}
+
+#ps-header-logo {
+	color: rgb(30,30,30);
+}
+
+#ps-header-user {
+	text-align: right;
+}
+
+#ps-header-user .quark-presence-container {
+	text-align: right;
+}
+
+#ps-header-user .quark-button {
+	font-size: 14px;
+	line-height: 14px;
+	color: rgb(70,70,70);
+}
+
+#ps-header-user .quark-button:hover {
+	text-decoration: underline;
+	color: rgb(30,30,30);
+}

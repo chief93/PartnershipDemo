@@ -1,0 +1,22 @@
+#ps-user-index {
+	text-align: left;
+	max-width: 520px;
+}
+
+#ps-user-index .quark-presence-container {
+	text-align: left;
+}
+
+#user-index-network {
+	margin: 50px 0 0 0;
+}
+
+#user-index-network-follower-list {
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+
+.user-index-network-follower-list-item {
+	display: block;
+	width: auto;
+}
